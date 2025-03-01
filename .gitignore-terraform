@@ -1,0 +1,17 @@
+# Ignore Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Ignore the Terraform lock file if you don't want to track it
+# .terraform.lock.hcl
+
+# Ignore any local environment files
+*.local
+
+# Ignore any sensitive files
+*.pem
+*.key
+
